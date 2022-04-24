@@ -1,4 +1,4 @@
-#SOEN357 RentAll Prototype
+# SOEN357 RentAll Prototype
 |name                     |github id    |student id
 |---                      |---          |---     
 |Gianfranco Dumoulin  | gfdb | 40097768
