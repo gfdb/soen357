@@ -1,16 +1,18 @@
 a {
-    color: #d0e1f9;
+    color: #5f9ea0;
     text-decoration: none;
 }
 
 .nav-container {
-    background-color: #1E1F26;
+    background-color: #d0e1f9;
     height: 10vh;
     padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 nav {
-    padding-top: 1vh;
+    padding-top: 2vh;
     width: 80%;
     margin: 0 auto;
     // box-shadow: 0px 5px 0px #bacddb;
@@ -30,4 +32,9 @@ nav ul li {
 }
 li {
     padding: 0 2vw 0 2vw;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-weight: 650;
 }
