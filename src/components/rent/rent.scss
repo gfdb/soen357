@@ -1,5 +1,41 @@
+.rent-post{
+    background-color: #d0e1f9;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    left: 35%;
+    
+}
 .rent-container {
     background-color: #5f9ea0;
     height: 90vh;
     overflow: hidden;
 }
+<<<<<<< HEAD
+=======
+img {
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.search-bar-container {
+    z-index: 2;
+    position: relative;
+    display: block;
+    padding-top: 20vh;
+}
+.search-bar {
+    background-color: rgba(255,0,0,0);
+    color: black;
+    margin: 4px 2px;
+    border-radius: 16px;
+    width: 30vw;
+    height: 3vh;
+    font-size: 20px;
+    color: #d0e1f9;
+}
+>>>>>>> a908bf1d385752e126256d7dfcf5a299c8fc2c75
