@@ -1,6 +1,5 @@
 import React from 'react'
-import './home.scss'
-// import {Outlet, Link} from 'react-router-dom'
+import '../home/home.scss'
 
 export default function Home() {
 	return (
@@ -15,9 +14,6 @@ export default function Home() {
 						required 
 
 					/>
-					{/* <button>
-
-					</button> */}
 				</div>
 			</div>	
 		</div>
