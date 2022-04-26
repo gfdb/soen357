@@ -1,7 +1,7 @@
 import React from 'react'
-import './search.scss'
+import './explore.scss'
 
-export default function Search() {
+export default function Explore() {
     return(
         <div>
             <div class='search-container'>

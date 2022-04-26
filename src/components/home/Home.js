@@ -1,11 +1,12 @@
 import React from 'react'
 import '../home/home.scss'
+import {Link} from 'react-router-dom'
 
 export default function Home() {
 	return (
 		<div className = 'home-container'>
 			<div className = 'image-logo'>
-				<img  src="/images/img2.jpeg" alt="logo"/>
+				<img className = 'homepage-background-image' src="/images/img2.jpeg" alt="logo"/>
 				<h1>RentAll</h1>
 				<div className='search-bar-container'>
 					<input 
@@ -17,7 +18,11 @@ export default function Home() {
 					/>
 				</div>
 				<div className = 'search-button-container'>
-					<button className = 'search-button' type = 'submit'>RentAll Search</button>
+					<Link to="/results">
+						<button className = 'search-button' type = 'submit'>
+							RentAll Search
+						</button>
+					</Link>
 				</div>
 			</div>	
 		</div>
