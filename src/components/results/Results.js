@@ -15,7 +15,7 @@ export default function Resulsts() {
         '/images/washing_machine.jpg'
     ]
 
-    for (let x = 0; x < 4; x++) {
+    for (let x = 0; x < 3; x++) {
         let random_num = Math.round(Math.random()*10 + 5)
         items.push(
             <div className = 'result-item-container'>
@@ -36,6 +36,7 @@ export default function Resulsts() {
                                 Price per day: ${random_num + 100}
                                 <br/>
                                 Price per month: ${random_num + 200}
+                                <br/>
                             </p>
                         </div>
                         <button className = 'rent-now-button'>
