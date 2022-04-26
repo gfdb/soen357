@@ -3,9 +3,10 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./components/nav/Nav";
 import Home from "./components/home/Home";
-import Rent from "./components/rent/Rent";
 import About from "./components/about/About";
 import Results from "./components/results/Results";
+import Explore from "./components/explore/Explore";
+
 
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
 			<Routes>
 				<Route path="/" element={<Nav />}>
 					<Route index element={<Home />} />
-					<Route path="rent" element={<Rent/>} />
+					<Route path="explore" element={<Explore />} />
 					<Route path="about" element={<About />} />
 					<Route path="results" element={<Results />} />
 				</Route>
