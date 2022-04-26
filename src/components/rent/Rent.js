@@ -34,19 +34,7 @@ export default function Rent() {
                 <div className= 'rent-post'>
                
                 </div> 
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br> 
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <div className= 'rent-post'>
-                
-                </div>         
+                    
 		</div>
 	)
 }
