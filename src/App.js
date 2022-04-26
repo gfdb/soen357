@@ -14,9 +14,10 @@ export default function App() {
 			<Routes>
 				<Route path="/" element={<Nav />}>
 					<Route index element={<Home />} />
+					<Route path="search" element={<Search />} />
 					<Route path="rent" element={<Rent/>} />
 					<Route path="about" element={<About />} />
-					<Route path="search" element={<Search />} />
+					
 				</Route>
 			</Routes>
 		</BrowserRouter>

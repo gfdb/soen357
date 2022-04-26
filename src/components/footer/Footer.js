@@ -5,6 +5,7 @@ import {Link, Outlet} from 'react-router-dom'
 export default function Nav() {
 	return (
 		<>
+			<Outlet/>
 			<div className = 'footer-container'>
 				<nav >
 					<ul>
@@ -23,7 +24,7 @@ export default function Nav() {
 					</ul>	
 				</nav>
 			</div>
-			<Outlet/>
+			
 		</>
 
 	)

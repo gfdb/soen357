@@ -7,38 +7,41 @@ export default function About() {
 		<div >
 
 				
-				<div className = 'home-container'>
+				<div className = 'about-container'>
                
-					<p>
+					<p className='about-text'>
                         We a group of Bachelors students and enthusiasts in Concordia University who wants to conteibute to the community and improve people's lives. We are based in Montreal, Quebec.
                         We were inspired to develop RentAll after seeing and talking to people who are facing difficult financial situation and people who wants to reduce waste. We developed this
                         application as part of the SOEN 357 final project.  
                     </p>
 				</div>
-                <div >
+                <div className = 'home-container' >
 					<p> 
                         For any information or suggestion, please contact us 
                     </p>
                     <p> 
                         Mohamad El Chanati
                         mohammed_elchanati@hotmail.com
-                    </p>
-                    <p> 
+                        <br></br>
+                        <br></br>
                         Mohamad El Chanati
                         mohammed_elchanati@hotmail.com
-                    </p>
-                    <p> 
+                        <br></br>
+                        <br></br>
                         Mohamad El Chanati
                         mohammed_elchanati@hotmail.com
-                    </p>
-                    <p> 
+                        <br></br>
+                        <br></br>
                         Mohamad El Chanati
                         mohammed_elchanati@hotmail.com
-                    </p>
-                    <p> 
+                        <br></br>
+                        <br></br>
                         Mohamad El Chanati
                         mohammed_elchanati@hotmail.com
+                        <br></br>
+                        <br></br>
                     </p>
+                    
 				</div>
 			
 		</div>
