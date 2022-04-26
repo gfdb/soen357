@@ -4,11 +4,23 @@ import {Link} from 'react-router-dom'
 
 export default function Resulsts() {
 
-    function animation() {
+    async function animation() {
         console.log('here')
         let element = document.getElementById('added-to-cart')
-        if (element !== null)
-            element.style.WebkitTransition = 'opacity 1s';
+        
+        if (element !== null) {
+            for (let j = 0; j < 1; j = j+0.1) {
+                await new Promise(r => setTimeout(r, 30));
+                element.style.opacity = j;
+            }
+            for (let j = 1; j > 0; j = j-0.1) {
+                await new Promise(r => setTimeout(r, 30));
+                element.style.opacity = j;
+            }
+            // for (let j = 1; j > 0; j = j-0.1)
+            //     element.style.opacity = j;
+        }
+            
     }
 
 
