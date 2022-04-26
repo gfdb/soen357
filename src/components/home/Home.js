@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<div className = 'home-container'>
 			<div className = 'image-logo'>
-				<img className = 'homepage-background-image' src="/images/img2.jpeg" alt="logo"/>
+				<img className = 'homepage-background-image' alt="logo"/>
 				<h1>RentAll</h1>
 				<div className='search-bar-container'>
 					<input 

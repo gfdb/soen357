@@ -55,7 +55,6 @@ export default function Resulsts() {
                                 Price per day: ${random_num + 100}
                                 <br/>
                                 Price per month: ${random_num + 200}
-                                <br/>
                             </p>
                         </div>
                         <button 

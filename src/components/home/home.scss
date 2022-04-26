@@ -1,7 +1,7 @@
 .home-container {
     background-color: #d0e1f9;
     height: 90vh;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 h1 {
@@ -24,6 +24,8 @@ h1 {
     position: absolute;
     display: flex;
     align-items: center;
+    content: url('../../../public/images/img2.jpeg');
+
 }
 .search-bar-container {
     z-index: 2;
@@ -75,4 +77,20 @@ h1 {
     background-color: #5f9ea0;
     color: #d0e1f9;
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .homepage-background-image {
+        content: url('../../../public/images/background-mobile.jpg');
+    }
+    .search-bar {
+        width: 82vw;
+    }
+    .search-button {
+        width: 46vw;
+    }
+
+    .homepage-background-image {
+        height: 100%;
+    }
 }
