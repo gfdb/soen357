@@ -4,6 +4,13 @@ import {Link} from 'react-router-dom'
 
 export default function Resulsts() {
 
+    function animation() {
+        console.log('here')
+        let element = document.getElementById('added-to-cart')
+        if (element !== null)
+            element.style.WebkitTransition = 'opacity 1s';
+    }
+
 
     let items = []
     let item_rows = []
@@ -39,8 +46,10 @@ export default function Resulsts() {
                                 <br/>
                             </p>
                         </div>
-                        <button className = 'rent-now-button'>
-                            Rent this Item
+                        <button 
+                            className = 'rent-now-button'
+                            onClick={() => {animation()}}>
+                                Rent this Item
                         </button>
                     </div>
                 </div>
@@ -56,32 +65,39 @@ export default function Resulsts() {
     }
     
     return (
-        <div className = 'results-container'>
-            <div className= 'results-options'>
-                <div className = 'filter-container'>
-                    <p>Sort by</p>
-                    <select name="Sort by" className = 'filter-select'>
-                        <option value ="">Low to High</option>
-                        <option value ="">High to Low</option>
-                        <option value ="">Highest rated seller</option>
-                        <option value ="">Popular</option>
-                    </select> 
+        <>
+            <div className = 'results-container'>
+                <div className= 'results-options'>
+                    <div className = 'filter-container'>
+                        <p>Sort by</p>
+                        <select name="Sort by" className = 'filter-select'>
+                            <option value ="">Low to High</option>
+                            <option value ="">High to Low</option>
+                            <option value ="">Highest rated seller</option>
+                            <option value ="">Popular</option>
+                        </select> 
+                    </div>
+
+                    <input 
+                            className = "search-bar-results"
+                            type="text" 
+                            placeholder = "Search for an item to rent..." 
+                            required 
+
+                    />
+                    <Link to="">
+                        <button className = 'search-button-results' type = 'submit'>
+                            Search
+                        </button>
+                    </Link>
                 </div>
-
-                <input 
-						className = "search-bar-results"
-						type="text" 
-						placeholder = "Search for an item to rent..." 
-						required 
-
-				/>
-                <Link to="">
-                    <button className = 'search-button-results' type = 'submit'>
-                        Search
-                    </button>
-			    </Link>
+                {item_rows}
             </div>
-            {item_rows}
-        </div>
+            <div 
+                className = 'added-to-cart'
+                id = 'added-to-cart'>
+                    <p className = 'added-text'>Added to basket</p>
+            </div>
+        </>
     )
 }

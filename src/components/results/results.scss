@@ -1,7 +1,7 @@
 .results-container {
     background-color: #5f9ea0;
     background-image: linear-gradient(to right, #467160, #599888);
-    height: 90vh;
+    // height: 90vh;
     overflow: hidden;
     padding: 3rem 2rem 0 5rem;
 }
@@ -96,6 +96,11 @@
     margin-top: 1rem;
 }
 
+.rent-now-button:hover {
+    background-color: #5f9ea0;
+    color: white;
+}
+
 .picture {
     height: 15rem;
     width: 15rem;
@@ -128,4 +133,26 @@
     background-color: white;
     color: #5f9ea0;
     cursor: pointer;
+}
+
+.added-to-cart {
+    position: fixed;
+    bottom: 0;
+    float: right;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+}
+
+.added-text {
+    margin-right: 3rem;
+    background-color: white;
+    padding: 0.8rem;
+}
+
+.added-to-cart.fade-in {
+    opacity: 1;
+    transition: all 1s;
 }
