@@ -1,0 +1,127 @@
+.results-container {
+    background-color: #5f9ea0;
+    height: 90vh;
+    overflow: hidden;
+    padding: 3rem 2rem 0 5rem;
+}
+
+.search-bar-results {
+    background-color: rgba(208, 225, 249, 0.068);
+    color: #d5e3f7;
+    margin: 4px 2px;
+    border-radius: 16px;
+    width: 22rem;
+    padding: 0.2rem 0.2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-color: #d6e3f5;
+    margin-left: 93rem;
+}
+
+.search-bar:focus {
+    border-color: #d0e1f9;
+}
+
+.search-button-results {
+    background-color: white;
+    color: #5f9ea0;
+    margin: 4px 2px;
+    width: 6rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-color: #d0e1f9;
+    margin-left: 0.5vw;
+}
+.search-button-results:hover {
+    background-color: #5f9ea0;
+    color: white;
+    cursor: pointer;
+}
+
+.results-options {
+    display: flex;
+    flex-direction: row;
+}
+
+.results-pics-row {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.result-item-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+
+.item-info-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 12vw;
+    height: 15rem;
+    max-width: 12vw;
+    max-height: 15rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-title {
+    text-align: center;
+    margin: 0 0;
+}
+
+.item-description {
+    text-align: left;
+    max-height: 10rem;
+    height: 12rem;
+    padding-left: 1.5rem;
+}
+
+.rent-now-button {
+    width: 10vw;
+    height: 2rem;
+    // background-color: red;
+    cursor: pointer;
+    color: #5f9ea0;
+}
+
+.picture {
+    height: 15rem;
+    width: 15rem;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.filter-container p {
+    color: white;
+    margin: 0.5rem 0;
+}
+.filter-select {
+    margin-left: 1rem;
+    height: 2.5rem;
+    background-color: rgba(208, 225, 249, 0.068);
+    color: #d5e3f7;
+    border-radius: 16px;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    border-color: #d6e3f5;
+    // margin-left: 93rem;
+}
+
+.filter-select:hover {
+    background-color: white;
+    color: #5f9ea0;
+    cursor: pointer;
+}

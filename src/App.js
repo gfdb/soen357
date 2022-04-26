@@ -5,6 +5,7 @@ import Nav from "./components/nav/Nav";
 import Home from "./components/home/Home";
 import Rent from "./components/rent/Rent";
 import About from "./components/about/About";
+import Results from "./components/results/Results";
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
 					<Route index element={<Home />} />
 					<Route path="rent" element={<Rent/>} />
 					<Route path="about" element={<About />} />
+					<Route path="results" element={<Results />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
